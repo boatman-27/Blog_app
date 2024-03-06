@@ -1,0 +1,109 @@
+.container {
+  border: 5px solid;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  width: 600px;
+  height: auto;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  width: 580px;
+}
+
+.form > div {
+  margin-bottom: 10px;
+}
+
+.form-question {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.form-question label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: normal;
+  color: #333;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.form-question input {
+  width: 450px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  background-color: antiquewhite;
+}
+
+.name {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.name > div {
+  margin: 10px;
+}
+
+.name label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: normal;
+  color: #333;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.name input {
+  width: 210px;
+}
+
+.container h1,
+p {
+  text-align: center;
+}
+
+.form button {
+  width: 100px;
+  height: 30px;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+.form ::placeholder {
+  color: #999;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  text-align: left;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.hidden {
+  display: none;
+}
